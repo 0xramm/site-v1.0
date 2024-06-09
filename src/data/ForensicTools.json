@@ -1,0 +1,51 @@
+[
+  {
+    "Name": "Autopsy",
+    "Description": "Autopsy is a digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools. It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer.",
+    "HTU": "Install Autopsy, create a new case, add data sources (disk images, local disks), and start analyzing the data.",
+    "Link": "https://www.autopsy.com/",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool1.png",
+    "src": "Autopsy",
+    "keywords": ["Autopsy", "forensic", "Forensic Tools"]
+  },
+  {
+    "Name": "FTK Imager",
+    "Description": "FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as FTK is warranted.",
+    "HTU": "Download and install FTK Imager, create an image of the drive or folder you want to examine, and start the analysis process.",
+    "Link": "https://accessdata.com/product-download/ftk-imager-version-4.2.0",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool2.png",
+    "keywords": ["FTK", "Imager", "forensic", "Forensic Tools"]
+  },
+  {
+    "Name": "Sleuth Kit",
+    "Description": "The Sleuth Kit (TSK) is a library and collection of command-line digital forensics tools that allow you to investigate volume and file system data.",
+    "HTU": "Install The Sleuth Kit, use the command-line tools to analyze disk images, and interpret the output to investigate the data.",
+    "Link": "http://sleuthkit.org/",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool3.png",
+    "keywords": ["Sleuth", "Kit", "forensic", "Forensic Tools"]
+  },
+  {
+    "Name": "MiniTool Power Data Recovery",
+    "Description": "MiniTool Power Data Recovery is a free data recovery software for Windows that allows users to recover lost, deleted, or corrupted files from various storage devices.",
+    "Link": "https://www.minitool.com/data-recovery-software/free-for-windows.html/",
+    "HTU": "Install Autopsy, create a new case, add data sources (disk images, local disks), and start analyzing the data.",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool4.png",
+    "keywords": ["MiniTool", "Power", "Data", "Recovery", "Forensic Tools"]
+  },
+  {
+    "Name": "ExifTool",
+    "Description": " ExifTool is a platform-independent Perl library plus a command-line application for reading, writing, and editing meta information in a wide variety of files.",
+    "HTU": "Download and install ExifTool, run the command-line tool with the desired options to read or modify metadata in files.",
+    "Link": "https://exiftool.org/",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool5.png",
+    "keywords": ["ExifTool", "Forensic Tools"]
+  },
+  {
+    "Name": "ExifTool",
+    "Description": " ExifTool is a platform-independent Perl library plus a command-line application for reading, writing, and editing meta information in a wide variety of files.",
+    "HTU": "Download and install ExifTool, run the command-line tool with the desired options to read or modify metadata in files.",
+    "Link": "https://exiftool.org/",
+    "image": "/src/assets/images/Category/Forensic%20Tools/tool5.png",
+    "keywords": ["ExifTool", "Forensic Tools"]
+  }
+]

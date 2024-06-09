@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Wireshark",
+    "Description": "Wireshark is a network protocol analyzer that enables you to capture and interactively browse the traffic running on a computer network.",
+    "HTU": "Download and install Wireshark, start a network capture, and analyze the captured network data.",
+    "Link": "https://www.wireshark.org/",
+    "image": "/src/assets/images/Category/Packet%20Sniffers/tool1.png",
+    "keywords": ["Wireshark", "network", "analysis", "Packet Sniffers"]
+  },
+  {
+    "Name": "tcpdump",
+    "Description": "tcpdump is a powerful command-line packet analyzer that captures and displays packet data from network interfaces.",
+    "HTU": "Install tcpdump, run `tcpdump` with appropriate options to capture packets, and analyze the output.",
+    "Link": "https://www.tcpdump.org/",
+    "image": "/src/assets/images/Category/Packet%20Sniffers/tool2.png",
+    "keywords": ["tcpdump", "Packet Sniffers"]
+  },
+  {
+    "Name": "tshark",
+    "Description": " Tshark is the command-line version of Wireshark, used for capturing and analyzing network packets.",
+    "HTU": "Install Tshark, run `tshark` to capture and analyze packets from network interfaces.",
+    "Link": "https://www.wireshark.org/docs/man-pages/tshark.html",
+    "image": "/src/assets/images/Category/Packet%20Sniffers/tool3.png",
+    "keywords": ["tshark", "Packet Sniffers"]
+  },
+  {
+    "Name": "Ettercap",
+    "Description": " Ettercap is a comprehensive suite for man-in-the-middle attacks on LAN. It features sniffing of live connections and content filtering.",
+    "HTU": " Install Ettercap, configure target interfaces, start sniffing, and perform MITM attacks if needed.",
+    "Link": "https://www.ettercap-project.org/",
+    "image": "/src/assets/images/Category/Packet%20Sniffers/tool4.png",
+    "keywords": ["Ettercap", "Packet Sniffers"]
+  },
+  {
+    "Name": "Kismet",
+    "Description": "Kismet is a network detector, packet sniffer, and intrusion detection system for 802.11 wireless LANs.",
+    "HTU": "Install Kismet, configure wireless interfaces, start capturing wireless packets, and analyze the traffic.",
+    "Link": "https://www.kismetwireless.net/",
+    "image": "/src/assets/images/Category/Packet%20Sniffers/tool5.png",
+    "keywords": ["Kismet", "Packet Sniffers"]
+  }
+]

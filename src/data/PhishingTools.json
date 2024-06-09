@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Gophish",
+    "Description": "Gophish is an open-source phishing framework designed to make it easy to test and train employees against phishing attacks.",
+    "HTU": "Install Gophish, configure phishing campaigns, and launch them to assess user susceptibility.",
+    "Link": "https://getgophish.com/",
+    "image": "/src/assets/images/Category/Phishing%20Tools/tool1.png",
+    "keywords": ["Gophish", "Phishing Tools"]
+  },
+  {
+    "Name": "Phishing Frenzy",
+    "Description": "Phishing Frenzy is a fully open-source Ruby on Rails application designed to manage and execute email phishing campaigns.",
+    "HTU": "Install Phishing Frenzy, configure email templates and target lists, and launch phishing campaigns.",
+    "Link": "https://github.com/pentestgeek/phishing-frenzy",
+    "image": "/src/assets/images/Category/Phishing%20Tools/tool2.png",
+    "keywords": ["Phishing", "Frenzy", "Phishing Tools"]
+  },
+  {
+    "Name": "King Phisher",
+    "Description": "King Phisher is a phishing campaign toolkit used to simulate real-world phishing attacks.",
+    "HTU": "Install King Phisher, configure campaigns, and execute phishing simulations.",
+    "Link": "https://github.com/rsmusllp/king-phisher",
+    "image": "/src/assets/images/Category/Phishing%20Tools/tool3.png",
+    "keywords": ["king", "phisher", "Phishing Tools"]
+  },
+  {
+    "Name": "SET (Social-Engineer Toolkit)",
+    "Description": "SET is an open-source penetration testing framework designed for social engineering attacks, including phishing.",
+    "HTU": "Install SET, run `setoolkit`, and select the desired phishing attack vector from the menu.",
+    "Link": "https://github.com/trustedsec/social-engineer-toolkit",
+    "image": "/src/assets/images/Category/Phishing%20Tools/tool4.png",
+    "keywords": ["Set", "(social-engineer", "toolkit", "Phishing Tools"]
+  },
+  {
+    "Name": "Evilginx2",
+    "Description": "Evilginx2 is a man-in-the-middle attack framework used for phishing login credentials and session cookies.",
+    "HTU": "Install Evilginx2, configure phishing sites, and use it to capture login credentials and session tokens.",
+    "Link": "https://github.com/kgretzky/evilginx2",
+    "image": "/src/assets/images/Category/Phishing%20Tools/tool5.png",
+    "keywords": ["evilginx", "Phishing Tools"]
+  }
+]

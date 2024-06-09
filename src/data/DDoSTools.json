@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "LOIC",
+    "Description": "LOIC is an open-source network stress testing and denial-of-service attack tool.",
+    "HTU": "Download and install LOIC, configure the target URL or IP address, and start the attack.",
+    "Link": "https://sourceforge.net/projects/loic/",
+    "image": "/src/assets/images/Category/DDoS%20Tools/tool1.png",
+    "keywords": ["LOIC", "DDoS Tools"]
+  },
+  {
+    "Name": "HOIC",
+    "Description": "HOIC is an open-source network stress testing and denial-of-service attack tool that supports multiple targets.",
+    "HTU": "Download and install HOIC, configure the target URLs or IP addresses, and start the attack.",
+    "Link": "https://sourceforge.net/projects/high-orbit-ion-cannon/",
+    "image": "/src/assets/images/Category/DDoS%20Tools/tool2.png",
+    "keywords": ["Hoic", "DDoS Tools"]
+  },
+  {
+    "Name": "HULK",
+    "Description": "HULK is a denial-of-service tool that generates unique and obfuscated HTTP traffic to saturate web servers.",
+    "HTU": "Download HULK, configure the target URL, and run the script to start the attack.",
+    "Link": "https://github.com/grafov/hulk",
+    "image": "/src/assets/images/Category/DDoS%20Tools/tool3.png",
+    "keywords": ["Hulk", "DDoS Tools"]
+  },
+  {
+    "Name": "Slowloris",
+    "Description": "Slowloris is a tool that allows a single machine to take down a web server with minimal bandwidth by holding many connections open.",
+    "HTU": "Download Slowloris, configure the target server, and run the script to start the attack.",
+    "Link": "https://github.com/gkbrk/slowloris",
+    "image": "/src/assets/images/Category/DDoS%20Tools/tool4.png",
+    "keywords": ["Slowloris", "DDoS Tools"]
+  },
+  {
+    "Name": "Xerxes",
+    "Description": "Xerxes is a powerful denial-of-service tool that can target any web server.",
+    "HTU": "Download Xerxes, compile the code, configure the target server, and run the executable to start the attack.",
+    "Link": "https://github.com/sepehrdaddev/Xerxes",
+    "image": "/src/assets/images/Category/DDoS%20Tools/tool5.png",
+    "keywords": ["Xerxes", "DDoS Tools"]
+  }
+]

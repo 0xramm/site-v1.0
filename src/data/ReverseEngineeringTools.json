@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "IDA Pro",
+    "Description": "IDA Pro is an interactive disassembler and debugger, providing comprehensive features for reverse engineering software.",
+    "HTU": "Install IDA Pro, load the target binary, and use the disassembler and debugger to analyze the code.",
+    "Link": "https://www.hex-rays.com/products/ida/",
+    "image": "/src/assets/images/Category/Reverse%20Engineering%20Tools/tool1.png",
+    "keywords": ["IDA", "Pro", "Reverse Engineering Tools"]
+  },
+  {
+    "Name": "Ghidra",
+    "Description": "Ghidra is a free and open-source software reverse engineering suite developed by the NSA, offering disassembly and decompilation capabilities.",
+    "HTU": "Install Ghidra, create a new project, load the target binary, and use the tools for analysis.",
+    "Link": "https://ghidra-sre.org/",
+    "image": "/src/assets/images/Category/Reverse%20Engineering%20Tools/tool2.png",
+    "keywords": ["Ghidra", "Reverse Engineering Tools"]
+  },
+  {
+    "Name": "Radare2",
+    "Description": "Radare2 is an open-source framework for reverse engineering and analyzing binaries, which includes a debugger and many other tools.",
+    "HTU": "Install Radare2, load the target binary, and use the commands to analyze and develop exploits.",
+    "Link": "https://www.radare.org/n/",
+    "image": "/src/assets/images/Category/Reverse%20Engineering%20Tools/tool3.png",
+    "keywords": ["Radare2", "Reverse Engineering Tools"]
+  },
+  {
+    "Name": "OllyDbg",
+    "Description": "OllyDbg is an x86 debugger that emphasizes binary code analysis and is useful for reverse engineering and debugging.",
+    "HTU": "Install OllyDbg, load the target executable, and use the debugger to analyze the program's behavior.",
+    "Link": "http://www.ollydbg.de/",
+    "image": "/src/assets/images/Category/Reverse%20Engineering%20Tools/tool4.png",
+    "keywords": ["OllyDbg", "Reverse Engineering Tools"]
+  },
+  {
+    "Name": "Capstone",
+    "Description": "Capstone is a lightweight multi-architecture disassembly framework.",
+    "HTU": "Install Capstone, integrate it with your reverse engineering tools, and use the API to disassemble binaries.",
+    "Link": "http://www.capstone-engine.org/",
+    "image": "/src/assets/images/Category/Reverse%20Engineering%20Tools/tool5.png",
+    "keywords": ["Capstone", "Reverse Engineering Tools"]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "OWASP ZAP",
+    "Description": "OWASP ZAP is an open-source web application security scanner that helps in finding security vulnerabilities in web applications.",
+    "HTU": "Install OWASP ZAP, configure the target application, run the scan, and review the results.",
+    "Link": "https://www.zaproxy.org/",
+    "image": "/src/assets/images/Category/Web%20Application%20Scanners/tool1.png",
+    "keywords": ["Owasp", "zap", "Web Application Scanners"]
+  },
+  {
+    "Name": "Burp Suite",
+    "Description": "Burp Suite is a popular web vulnerability scanner and security testing toolkit for web applications.",
+    "HTU": "Install Burp Suite, configure the target URL, run the scan, and analyze the vulnerabilities.",
+    "Link": "https://portswigger.net/burp/communitydownload",
+    "image": "/src/assets/images/Category/Web%20Application%20Scanners/tool2.png",
+    "keywords": ["Burp", "Suite", "Web Application Scanners"]
+  },
+  {
+    "Name": "Nikto",
+    "Description": "Nikto is an open-source web server scanner that performs comprehensive tests against web servers for multiple vulnerabilities.",
+    "HTU": "Install Nikto, run `nikto -h <target>` to scan the target web server, and review the report.",
+    "Link": "https://cirt.net/Nikto2",
+    "image": "/src/assets/images/Category/Web%20Application%20Scanners/tool3.png",
+    "keywords": ["Nikto", "Web Application Scanners"]
+  },
+  {
+    "Name": "Acunetix",
+    "Description": "Acunetix is a web vulnerability scanner that detects and reports on over 4500 web application vulnerabilities.",
+    "HTU": "Install Acunetix, configure the target web application, run the scan, and review the detailed reports.",
+    "Link": "https://www.acunetix.com/",
+    "image": "/src/assets/images/Category/Web%20Application%20Scanners/tool4.png",
+    "keywords": ["Acunetix", "Web Application Scanners"]
+  },
+  {
+    "Name": "Arachni",
+    "Description": "Arachni is a feature-full, modular, and high-performance web application security scanner framework.",
+    "HTU": "Install Arachni, configure the target web application, run the scan, and analyze the results.",
+    "Link": "https://www.arachni-scanner.com/",
+    "image": "/src/assets/images/Category/Web%20Application%20Scanners/tool5.png",
+    "keywords": ["Arachni", "Web Application Scanners"]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "MISP",
+    "Description": "MISP is an open-source threat intelligence platform for sharing, storing, and correlating Indicators of Compromise (IOCs) about malware threats.",
+    "HTU": "Install MISP, configure it for data sharing, and use the web interface to share and analyze threat data.",
+    "Link": "https://www.misp-project.org/",
+    "image": "/src/assets/images/Category/Threat%20Intelligence%20Platforms/tool1.png",
+    "keywords": ["Misp,", "Malware", "Threat Intelligence Platforms (TIP)"]
+  },
+  {
+    "Name": "ThreatConnect",
+    "Description": "ThreatConnect is a comprehensive threat intelligence platform that integrates threat data, automates processes, and enhances security operations.",
+    "HTU": "Sign up for ThreatConnect, configure data sources, and use the platform to manage and analyze threat intelligence.",
+    "Link": "https://threatconnect.com/",
+    "image": "/src/assets/images/Category/Threat%20Intelligence%20Platforms/tool2.png",
+    "keywords": ["threatConnect,threat", "Threat Intelligence Platforms (TIP)"]
+  },
+  {
+    "Name": "Open Threat Exchange (OTX)",
+    "Description": "OTX is an open-source threat intelligence community that enables collaborative defense with real-time data sharing.",
+    "HTU": "Sign up for OTX, join the community, and access threat data feeds for analysis.",
+    "Link": "https://otx.alienvault.com/",
+    "image": "/src/assets/images/Category/Threat%20Intelligence%20Platforms/tool3.png",
+    "keywords": [
+      "Open",
+      "threat",
+      "exchange",
+      "Threat Intelligence Platforms (TIP)"
+    ]
+  },
+  {
+    "Name": "PassiveTotal",
+    "Description": "PassiveTotal is a threat intelligence platform that provides insights into threat infrastructure using passive DNS data and other sources.",
+    "HTU": "Sign up for PassiveTotal, configure data sources, and use the platform to analyze threat data.",
+    "Link": "https://community.riskiq.com/",
+    "image": "/src/assets/images/Category/Threat%20Intelligence%20Platforms/tool4.png",
+    "keywords": ["PassiveTotal", "Threat Intelligence Platforms (TIP)"]
+  },
+  {
+    "Name": "OpenCTI",
+    "Description": "OpenCTI is an open-source threat intelligence platform that provides a structured and collaborative environment for threat data analysis.",
+    "HTU": "Install OpenCTI, configure data sources, and use the web interface for threat analysis and sharing.",
+    "Link": "https://www.opencti.io/",
+    "image": "/src/assets/images/Category/Threat%20Intelligence%20Platforms/tool5.png",
+    "keywords": ["OpenCTi", "Threat Intelligence Platforms (TIP)"]
+  }
+]

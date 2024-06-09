@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "OpenPuff",
+    "Description": "OpenPuff is a professional steganography tool that supports a wide range of carrier formats for embedding data.",
+    "HTU": "Install OpenPuff, choose the carrier file, embed the data, and extract it using the same tool.",
+    "Link": "http://embeddedsw.net/OpenPuff_Steganography_Home.html",
+    "image": "/src/assets/images/Category/Steganography%20Tools/tool1.png",
+    "keywords": ["Bro", "network", "forensics", "Steganography Tools"]
+  },
+  {
+    "Name": "Steghide",
+    "Description": "Steghide is an open-source steganography tool that allows you to embed data in image and audio files.",
+    "HTU": "Install Steghide, use `steghide embed` to hide data and `steghide extract` to retrieve it.",
+    "Link": "http://steghide.sourceforge.net/",
+    "image": "/src/assets/images/Category/Steganography%20Tools/tool2.png",
+    "keywords": ["Steghide", "Steganography Tools"]
+  },
+  {
+    "Name": "Stegano",
+    "Description": "Stegano is a Python library for hiding messages and files within image files.",
+    "HTU": "Install Stegano using pip, use the library functions to hide and retrieve data from images.",
+    "Link": "https://pypi.org/project/stegano/",
+    "image": "/src/assets/images/Category/Steganography%20Tools/tool3.png",
+    "keywords": ["Stegano", "Steganography Tools"]
+  },
+  {
+    "Name": "LSB-Steganography",
+    "Description": "Hide and Seek is a steganography tool that allows you to hide files within image files.",
+    "HTU": "Install Hide and Seek, choose the carrier image, embed the data file, and extract it using the same tool.",
+    "Link": "https://github.com/RobinDavid/LSB-Steganography",
+    "image": "/src/assets/images/Category/Steganography%20Tools/tool4.png",
+    "keywords": ["Hide", "and", "Seek", "Steganography Tools"]
+  },
+  {
+    "Name": "OpenStego",
+    "Description": "OpenStego is an open-source steganography tool that provides data hiding and watermarking capabilities.",
+    "HTU": "Install OpenStego, choose the carrier file, embed the data, and extract it using the same tool.",
+    "Link": "https://www.openstego.com/",
+    "image": "/src/assets/images/Category/Steganography%20Tools/tool5.png",
+    "keywords": ["OpenStego", "Steganography Tools"]
+  }
+]

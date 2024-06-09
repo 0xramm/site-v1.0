@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "DNSExfiltrator",
+    "Description": "DNSExfiltrator allows for the exfiltration of data through DNS requests.",
+    "HTU": "Install DNSExfiltrator, configure the DNS server, and use the tool to exfiltrate data via DNS.",
+    "Link": "https://github.com/Arno0x/DNSExfiltrator",
+    "image": "/src/assets/images/Category/Data%20Exfiltration%20Tools/tool1.png",
+    "keywords": ["dnsexfiltrator", "Data Exfiltration Tools"]
+  },
+  {
+    "Name": "PowerShell Empire",
+    "Description": "PowerShell Empire is a post-exploitation framework that includes modules for data exfiltration.",
+    "HTU": "Install Empire, run the PowerShell agent on the target, and use exfiltration modules to extract data.",
+    "Link": "https://github.com/EmpireProject/Empire",
+    "image": "/src/assets/images/Category/Data%20Exfiltration%20Tools/tool3.png",
+    "keywords": ["powershell", "empire", "Data Exfiltration Tools"]
+  },
+  {
+    "Name": "Covenant",
+    "Description": "Covenant is a collaborative .NET C2 framework that supports data exfiltration operations.",
+    "HTU": "Install Covenant, deploy the agent on the target, and use the exfiltration modules to extract data.",
+    "Link": "https://github.com/cobbr/Covenant",
+    "image": "/src/assets/images/Category/Data%20Exfiltration%20Tools/tool4.png",
+    "keywords": ["Covenant", "Data Exfiltration Tools"]
+  },
+  {
+    "Name": "dnscat2",
+    "Description": "dnscat2 is a tool designed to create an encrypted communication channel over the DNS protocol, suitable for data exfiltration.",
+    "HTU": "Install dnscat2, configure the server and client, and use it to exfiltrate data over DNS.",
+    "Link": "https://github.com/iagox86/dnscat2",
+    "image": "/src/assets/images/Category/Data%20Exfiltration%20Tools/tool5.png",
+    "keywords": ["dnscat", "Data Exfiltration Tools"]
+  },
+  {
+    "Name": "PoshC2",
+    "Description": "PoshC2 is a proxy-aware C2 framework that supports data exfiltration among other post-exploitation tasks.",
+    "HTU": "Install PoshC2, configure and deploy the agent, and use the framework to exfiltrate data.",
+    "Link": "https://github.com/nettitude/PoshC2",
+    "image": "/src/assets/images/Category/Data%20Exfiltration%20Tools/tool6.png",
+    "keywords": ["PoshC2", "Data Exfiltration Tools"]
+  }
+]

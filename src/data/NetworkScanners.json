@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Nmap",
+    "Description": "Nmap is a versatile open-source network scanner that helps in network discovery and security auditing.",
+    "HTU": "Install Nmap, run `nmap <target>` to scan the network, and analyze the results.",
+    "Link": "https://nmap.org/",
+    "image": "/src/assets/images/Category/Network%20Scanners/tool1.png",
+    "keywords": ["Nmap", "Network Scanners"]
+  },
+  {
+    "Name": "Angry IP Scanner",
+    "Description": "Angry IP Scanner is a fast and open-source network scanning tool that is easy to use and provides detailed information.",
+    "HTU": "Install Angry IP Scanner, configure the IP range, run the scan, and review the output.",
+    "Link": "http://angryip.org/",
+    "image": "/src/assets/images/Category/Network%20Scanners/tool2.png",
+    "keywords": ["Angry", "Ip", "scanner", "Network Scanners"]
+  },
+  {
+    "Name": "Advanced IP Scanner",
+    "Description": "Advanced IP Scanner is a fast and free network scanner for Windows, providing a comprehensive range of information about network devices.",
+    "HTU": "Download and install Advanced IP Scanner, run a scan of the network, and view the detailed information about each device.",
+    "Link": "https://www.advanced-ip-scanner.com/",
+    "image": "/src/assets/images/Category/Network%20Scanners/tool3.png",
+    "keywords": ["Advanced", "Ip", "scanner", "Network Scanners"]
+  },
+  {
+    "Name": "Masscan",
+    "Description": "Masscan is an Internet-scale port scanner capable of scanning the entire Internet in under 6 minutes.",
+    "HTU": "Install Masscan, run `masscan <target>` with the desired options, and analyze the scan results.",
+    "Link": "https://github.com/robertdavidgraham/masscan",
+    "image": "/src/assets/images/Category/Network%20Scanners/tool4.png",
+    "keywords": ["Masscan", "Network Scanners"]
+  },
+  {
+    "Name": "ZMap",
+    "Description": "ZMap is a fast single-packet network scanner designed for Internet-wide network surveys.",
+    "HTU": "Install ZMap, configure the target IP range, and run the scan to gather network data.",
+    "Link": "https://zmap.io/",
+    "image": "/src/assets/images/Category/Network%20Scanners/tool5.png",
+    "keywords": ["Zmap", "Network Scanners"]
+  }
+]

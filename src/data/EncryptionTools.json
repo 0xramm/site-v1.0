@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "VeraCrypt",
+    "Description": "VeraCrypt is an open-source disk encryption software that provides on-the-fly encryption.",
+    "HTU": "Install VeraCrypt, create an encrypted volume or encrypt a partition/drive, and use it to store sensitive data securely.",
+    "Link": "https://www.veracrypt.fr/en/Home.html",
+    "image": "/src/assets/images/Category/Encryption%20Tools/tool1.png",
+    "keywords": ["VeraCrypt", "Encryption Tools"]
+  },
+  {
+    "Name": "GnuPG",
+    "Description": "GnuPG is a free implementation of the OpenPGP standard, providing encryption and signing of data and communications.",
+    "HTU": "Install GnuPG, generate a key pair, use `gpg` commands to encrypt/decrypt data, and sign/verify messages.",
+    "Link": "https://gnupg.org/",
+    "image": "/src/assets/images/Category/Encryption%20Tools/tool2.png",
+    "keywords": ["GnuPG", "Encryption Tools"]
+  },
+  {
+    "Name": "Cryptomator",
+    "Description": "Cryptomator is an open-source encryption tool for cloud storage that provides transparent client-side encryption of files.",
+    "HTU": "Install Cryptomator, create a vault, add files to the vault, and access them securely through the virtual drive.",
+    "Link": "https://cryptomator.org/",
+    "image": "/src/assets/images/Category/Encryption%20Tools/tool3.png",
+    "keywords": ["Cryptomator", "Encryption Tools"]
+  },
+  {
+    "Name": "EncFS",
+    "Description": "EncFS is an open-source cryptographic filesystem that provides encryption for directories and files.",
+    "HTU": "Install EncFS, create an encrypted directory, and use it to securely store files.",
+    "Link": "https://vgough.github.io/encfs/",
+    "image": "/src/assets/images/Category/Encryption%20Tools/tool4.png",
+    "keywords": ["EncFs", "Encryption Tools"]
+  },
+  {
+    "Name": "DiskCryptor",
+    "Description": "DiskCryptor is an open-source disk encryption tool that supports full disk and partition encryption.",
+    "HTU": "Install DiskCryptor, choose the disk or partition to encrypt, and follow the steps to complete the encryption process.",
+    "Link": "https://diskcryptor.net/",
+    "image": "/src/assets/images/Category/Encryption%20Tools/tool5.png",
+    "keywords": ["DiskCryptor", "Encryption Tools"]
+  }
+]

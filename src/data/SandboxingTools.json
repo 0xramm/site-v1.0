@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Firejail",
+    "Description": "Firejail is a SUID program that reduces the risk of security breaches by restricting the running environment of untrusted applications.",
+    "HTU": "Install Firejail, run applications with Firejail to isolate them from the rest of the system.",
+    "Link": "https://firejail.wordpress.com/",
+    "image": "/src/assets/images/Category/Sandboxing%20Tools/tool1.png",
+    "keywords": ["Firejail", "Sandboxing Tools"]
+  },
+  {
+    "Name": "Qubes OS",
+    "Description": "Qubes OS is a security-focused operating system that uses virtualization to create isolated compartments called qubes.",
+    "HTU": "Install Qubes OS, create and manage qubes, and run applications in isolated qubes.",
+    "Link": "https://www.qubes-os.org/",
+    "image": "/src/assets/images/Category/Sandboxing%20Tools/tool2.png",
+    "keywords": ["Qubes", "OS", "Sandboxing Tools"]
+  },
+  {
+    "Name": "Gvisor",
+    "Description": "Gvisor is a user-space kernel, written in Go, that provides an additional layer of isolation between running applications and the host kernel.",
+    "HTU": "Install Gvisor, configure it to run containers, and isolate applications from the host system.",
+    "Link": "https://gvisor.dev/",
+    "image": "/src/assets/images/Category/Sandboxing%20Tools/tool3.png",
+    "keywords": ["Gvisor", "Sandboxing Tools"]
+  },
+  {
+    "Name": "Shadow Daemon",
+    "Description": "Shadow Daemon is a collection of tools to detect, record, and prevent web attacks by isolating and analyzing web application traffic.",
+    "HTU": "Install Shadow Daemon, configure it with your web server, and monitor web traffic for malicious activities.",
+    "Link": "https://github.com/zecure/shadowd",
+    "image": "/src/assets/images/Category/Sandboxing%20Tools/tool4.png",
+    "keywords": ["Shadow", "Daemon", "Sandboxing Tools"]
+  },
+  {
+    "Name": "Snappy",
+    "Description": "Snappy is a software deployment and package management system that uses containerization to isolate applications from the system.",
+    "HTU": "Install Snappy, package applications as snaps, and run them in isolated environments.",
+    "Link": "https://snapcraft.io/",
+    "image": "/src/assets/images/Category/Sandboxing%20Tools/tool5.png",
+    "keywords": ["Snappy", "Sandboxing Tools"]
+  }
+]

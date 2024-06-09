@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Social-Engineer Toolkit (SET)",
+    "Description": "SET is an open-source penetration testing framework designed for social engineering attacks.",
+    "HTU": "Install SET, run `setoolkit`, and select the desired attack vector from the menu.",
+    "Link": "https://github.com/trustedsec/social-engineer-toolkit",
+    "image": "/src/assets/images/Category/Social%20Engineering%20Tools/tool1.png",
+    "keywords": ["Social-engineer", "tool", "Social Engineering Tools"]
+  },
+  {
+    "Name": "Gophish",
+    "Description": "Gophish is an open-source phishing framework designed to make it easy to test and train employees against phishing attacks.",
+    "HTU": "Install Gophish, configure phishing campaigns, and launch them to assess user susceptibility.",
+    "Link": "https://getgophish.com/",
+    "image": "/src/assets/images/Category/Social%20Engineering%20Tools/tool2.png",
+    "keywords": ["Gophish", "Social Engineering Tools"]
+  },
+  {
+    "Name": "King Phisher",
+    "Description": "King Phisher is a phishing campaign toolkit used to simulate real-world phishing attacks.",
+    "HTU": "Install King Phisher, configure campaigns, and execute phishing simulations.",
+    "Link": "https://github.com/rsmusllp/king-phisher",
+    "image": "/src/assets/images/Category/Social%20Engineering%20Tools/tool3.png",
+    "keywords": ["king", "phisher", "Social Engineering Tools"]
+  },
+  {
+    "Name": "Maltego",
+    "Description": "Maltego is an open-source intelligence and forensics application that provides data mining and link analysis capabilities.",
+    "HTU": "Install Maltego, configure transforms, and use the graphical interface to gather and analyze information.",
+    "Link": "https://www.maltego.com/",
+    "image": "/src/assets/images/Category/Social%20Engineering%20Tools/tool4.png",
+    "keywords": ["Maltego", "Social Engineering Tools"]
+  },
+  {
+    "Name": "Recon-ng",
+    "Description": "Recon-ng is a full-featured web reconnaissance framework written in Python, providing modules for various reconnaissance tasks.",
+    "HTU": "Install Recon-ng, add and configure modules, and run them to gather information.",
+    "Link": "https://github.com/lanmaster53/recon-ng",
+    "image": "/src/assets/images/Category/Social%20Engineering%20Tools/tool5.png",
+    "keywords": ["Recon-ng", "Social Engineering Tools"]
+  }
+]

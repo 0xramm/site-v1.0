@@ -39,13 +39,5 @@
     "Link": "https://exiftool.org/",
     "image": "/src/assets/images/Category/Forensic%20Tools/tool5.png",
     "keywords": ["ExifTool", "Forensic Tools"]
-  },
-  {
-    "Name": "ExifTool",
-    "Description": " ExifTool is a platform-independent Perl library plus a command-line application for reading, writing, and editing meta information in a wide variety of files.",
-    "HTU": "Download and install ExifTool, run the command-line tool with the desired options to read or modify metadata in files.",
-    "Link": "https://exiftool.org/",
-    "image": "/src/assets/images/Category/Forensic%20Tools/tool5.png",
-    "keywords": ["ExifTool", "Forensic Tools"]
   }
 ]

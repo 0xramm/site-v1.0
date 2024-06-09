@@ -125,24 +125,28 @@ const ToolsDetailsPage = () => {
           {toolDetails.Name}- {categoryName}
         </title>
       </Helmet>
-      <div className="container mx-auto p-4 flex flex-col items-center">
-        <h2 className="text-2xl font-bold mb-4">{toolDetails.Name}</h2>
+      <div className="container mx-auto p-4 flex flex-col items-center mt-[100px] gap-5">
+        <h2 className="text-4xl font-bold mb-4 text-center">
+          {toolDetails.Name}
+        </h2>
         <img
           src={toolDetails.image}
           alt={toolDetails.Name}
-          className="w-[600px] h-[400px] rounded-xl mb-4"
+          className="w-full md:w-[600px] h-auto rounded-xl mb-4"
         />
-        <p className="text-gray-600 mb-4">{toolDetails.Description}</p>
-        <p className="text-blue-500">
+        <p className="text-gray-600 mb-4 text-center font-bold text-lg md:text-2xl">
+          {toolDetails.Description}
+        </p>
+        <p className="text-[1rem] md:text-[1.3rem] text-gray-500 mt-2 text-center">
+          <span className="font-bold">How To Use :</span> {toolDetails.HTU}
+        </p>
+        <p className="text-sm md:text-base italic text-gray-500 mt-2 text-center">
+          Keywords: {toolDetails.keywords.join(", ")}
+        </p>
+        <p className="text-blue-500 underline font-medium text-lg md:text-2xl text-center">
           <a href={toolDetails.Link} target="_blank" rel="noopener noreferrer">
             Learn More
           </a>
-        </p>
-        <p className="text-sm italic text-gray-500 mt-2">
-          HTU: {toolDetails.HTU}
-        </p>
-        <p className="text-sm italic text-gray-500 mt-2">
-          Keywords: {toolDetails.keywords.join(", ")}
         </p>
       </div>
     </>

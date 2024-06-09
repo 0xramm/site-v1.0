@@ -22,6 +22,25 @@ import {
 } from "../components/ToolsData";
 import Navbar from "./Navbar";
 
+const gradientClasses = [
+  "bg-gradient-to-r from-slate-500 to-slate-800",
+  "bg-gradient-to-r from-emerald-500 to-emerald-900",
+  "bg-gradient-to-r from-blue-800 to-indigo-900",
+  "bg-gradient-to-r from-violet-600 to-indigo-600",
+  "bg-gradient-to-r from-blue-600 to-violet-600",
+  "bg-gradient-to-r from-indigo-500 to-blue-500",
+  "bg-gradient-to-r from-fuchsia-500 to-cyan-500",
+  "bg-gradient-to-r from-fuchsia-600 to-purple-600",
+  "bg-gradient-to-r from-slate-900 to-slate-700",
+  "bg-gradient-to-r from-red-500 to-orange-500",
+  "bg-gradient-to-r from-rose-400 to-red-500",
+  "bg-gradient-to-r from-fuchsia-600 to-pink-600",
+];
+
+const getRandomGradient = () => {
+  return gradientClasses[Math.floor(Math.random() * gradientClasses.length)];
+};
+
 const CategoryToolsPage = () => {
   const { categoryName } = useParams();
   const [tools, setTools] = useState([]);
@@ -99,9 +118,15 @@ const CategoryToolsPage = () => {
         <title>{categoryName}</title>
       </Helmet>
       <Navbar />
-      <div className="w-[90%] m-auto">
-        <h2 className="text-2xl font-bold mb-4">{categoryName}</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="w-[90%] m-auto mt-[100px]">
+        <div
+          className={`box md:rounded-[40px] rounded-2xl md:h-[400px] h-[250px] flex justify-center items-center text-white mb-8 ${getRandomGradient()}`}
+        >
+          <h2 className="md:text-5xl text-2xl font-bold mb-4 text-center">
+            TOP {tools.length} {categoryName.replace(/-/g, " ").toUpperCase()}
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-[40px]">
           {tools.map((tool, index) => (
             <Link
               key={index}
@@ -110,15 +135,27 @@ const CategoryToolsPage = () => {
                 "-"
               )}`}
             >
-              <div className="bg-white rounded-lg shadow-lg p-4">
+              <div className="bg-white rounded-xl shadow-xl h-full flex flex-col justify-between">
                 <img
                   src={tool.image}
                   alt={tool.Name}
-                  className="w-full h-[200px] object-cover"
+                  className="w-full h-[200px] md:h-[230px] rounded-t-xl bg-cover object-cover"
                 />
-                <div className="mt-4">
+                <div className="p-4 flex flex-col justify-between">
                   <h3 className="text-lg font-semibold">{tool.Name}</h3>
-                  <p className="mt-2 text-gray-600">{tool.Description}</p>
+                  <p className="my-3 text-gray-600 line-clamp-3">
+                    {tool.Description}
+                  </p>
+                  <div className="keywords inline-flex flex-wrap gap-2 mt-auto">
+                    {tool.keywords.map((keyword, index) => (
+                      <span
+                        key={index}
+                        className="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm"
+                      >
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </Link>

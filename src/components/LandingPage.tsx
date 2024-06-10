@@ -3,7 +3,6 @@ import Navbar from "./Navbar"; // Import the Navbar component
 import HeroImg from "../assets/HeroImg.svg";
 import { Helmet } from "react-helmet";
 import Rarrow from "../assets/icons/bxs-right-arrow-alt.svg";
-import Footer from "./Footer";
 
 const LandingPage = () => {
   return (

@@ -18,11 +18,14 @@ import {
   MalwareAnalysisTools,
   ReverseEngineeringTools,
   WebApplicationScanners,
-} from "../components/ToolsData";
+  Osint,
+  FIRDownload,
+} from "./ToolsData";
 import Navbar from "./Navbar";
 
 const ToolsDetailsPage = () => {
   const { categoryName, toolName } = useParams();
+
   let toolDetails = null;
 
   switch (categoryName) {
@@ -112,11 +115,25 @@ const ToolsDetailsPage = () => {
         (tool) => tool.Name.toLowerCase().replace(/\s+/g, "-") === toolName
       );
       break;
+    case "osint-tools":
+      toolDetails = Osint.find(
+        (tool) => tool.Name.toLowerCase().replace(/\s+/g, "-") === toolName
+      );
+      break;
+    case "fir-download":
+      toolDetails = FIRDownload.find(
+        (tool) => tool.Name.toLowerCase().replace(/\s+/g, "-") === toolName
+      );
+      break;
     default:
       // Handle invalid category
       break;
   }
-
+  if (!toolDetails) {
+    return (
+      <div>No tool details found for the given category and tool name.</div>
+    );
+  }
   return (
     <>
       <Navbar />

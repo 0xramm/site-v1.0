@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "Tamil Nadu Citizen Portal",
+    "Description": "Download FIR copy online from State Police Website",
+    "HTU": "For a proper hunt, a Fir number is necessary. However, you can get a dupe from the Police Station itself, If you're the person who filed an FIR. However, you'll need the FIR number; Police Station details to download the FIR dupe online for yourself, If not",
+    "Link": "https://eservices.tnpolice.gov.in/CCTNSNICSDC/CitizenFIRView?0",
+    "image": "./assets/images/tools/Category/OSINT/Tool1.png",
+    "keywords": ["Emailrep", "Osint"]
+  }
+]

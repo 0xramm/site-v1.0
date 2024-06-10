@@ -1,0 +1,161 @@
+{
+  "Tools": {
+    "osintTools": {
+      "Tool1": {
+        "Name": "Emailrep.io",
+        "Description": "A service that provides reputation and risk analysis of email addresses using data points like breaches, social profiles, and activity patterns.",
+        "HTU": "Use Emailrep.io to check the reputation of an email address. Simply enter the email to get information about its validity and associated risks.",
+        "Link": "https://emailrep.io/",
+        "image": "./assets/images/tools/Category/OSINT/Tool1.png",
+        "keywords": ["Emailrep", "Osint"]
+      },
+      "Tool2": {
+        "Name": "Haveibeenpwned",
+        "Description": "A website that allows users to check if their email addresses or phone numbers have been compromised in data breaches.",
+        "HTU": "Visit HaveibeenPwned.com and enter an email address to see if it has been compromised in any data breaches. Get details on specific breaches affecting the entered email.",
+        "Link": "https://haveibeenpwned.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool2.png",
+        "keywords": ["Haveibeenpwned", "Osint"]
+      },
+      "Tool3": {
+        "Name": "Dehashed",
+        "Description": " A comprehensive database search engine for hacked data, enabling users to search for their information in leaked datasets.",
+        "HTU": "Use Dehashed.com to search for compromised data across multiple data breaches by entering an email, username, IP address, or phone number. It provides detailed breach information and source links.",
+        "Link": "https://www.dehashed.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool3.png",
+        "keywords": ["Dehashed", "Osint"]
+      },
+      "Tool4": {
+        "Name": "Mx Email Lookup",
+        "Description": "A tool to verify email addresses and gather information about the mail server (MX records) associated with them.",
+        "HTU": "Perform an MX (Mail Exchange) lookup to find the mail servers associated with a domain. This can help verify if an email address is valid and locate its mail server details.",
+        "Link": "https://mxtoolbox.com/EmailLookup.aspx",
+        "image": "./assets/images/tools/Category/OSINT/Tool4.png",
+        "keywords": ["Mx Email Lookup", "Osint"]
+      },
+      "Tool5": {
+        "Name": "Spycloud",
+        "Description": " A cybersecurity service that helps organizations prevent account takeover by detecting and remediating stolen credentials.",
+        "HTU": "Access SpyCloud to check if your personal or corporate data has been exposed in breaches. Enter email addresses or domains to get breach information and preventive measures.",
+        "Link": "https://spycloud.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool5.png",
+        "keywords": ["Spycloud", "Osint"]
+      },
+
+      "Tool6": {
+        "Name": "Ding",
+        "Description": "A service for mobile top-ups that allows users to send prepaid mobile credit to phones worldwide.",
+        "HTU": "Ding.com allows you to send mobile top-ups to prepaid phones worldwide. Select the recipient's country and enter their phone number to send a top-up.",
+        "Link": "https://www.ding.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool6.png",
+        "keywords": ["Ding", "Osint"]
+      },
+      "Tool7": {
+        "Name": "Twilio",
+        "Description": " A cloud communications platform that enables developers to build, scale, and operate real-time communications applications via APIs.",
+        "HTU": "Use Twilio's API to send SMS, make voice calls, and integrate various communication services into your applications. Sign up and follow the API documentation for implementation.",
+        "Link": "https://www.twilio.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool7.png",
+        "keywords": ["Twilio", "Osint"]
+      },
+      "Tool8": {
+        "Name": "NameCheckup",
+        "Description": " A tool that checks the availability of a username across multiple social media platforms and domain names.",
+        "HTU": "Visit Namecheckup.com to check the availability of a username across various social media platforms and domain names. Enter your desired username to see where it's available.",
+        "Link": "https://www.namecheckup.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool8.png",
+        "keywords": ["NameCheckup", "Osint"]
+      },
+      "Tool9": {
+        "Name": "APNIC",
+        "Description": "The Asia Pacific Network Information Centre, which manages IP address allocation and internet resource management in the Asia-Pacific region.",
+        "HTU": "Use APNIC's Whois search to query the APNIC database for information about IP addresses, AS numbers, and related network information. Enter an IP address or AS number to get details.",
+        "Link": "https://www.apnic.net/",
+        "image": "./assets/images/tools/Category/OSINT/Tool9.png",
+        "keywords": ["APNIC", "Osint"]
+      },
+      "Tool10": {
+        "Name": "Whois",
+        "Description": " A query and response protocol used for querying databases to obtain information about the registration of a domain name or IP address.",
+        "HTU": "Perform a WHOIS lookup to find registration details of a domain name or IP address. Use command-line tools or online services to get ownership and contact information.",
+        "Link": "https://www.whois.com/",
+        "image": "./assets/images/tools/Category/OSINT/Tool10.png",
+        "keywords": ["Whois", "Osint"]
+      },
+
+      "Tool11": {
+        "Name": "Viewdns",
+        "Description": "A suite of free online tools that provide various DNS and IP-related information for websites, including DNS records, reverse IP lookup, and more.",
+        "HTU": "Use Viewdns.info to access a suite of DNS and domain tools including reverse DNS lookup, traceroute, and DNS propagation checks. Enter a domain to get detailed DNS information.",
+        "Link": "https://viewdns.info/",
+        "image": "./assets/images/tools/Category/OSINT/Tool11.png",
+        "keywords": ["Viewdns", "Osint"]
+      },
+      "Tool12": {
+        "Name": "UrlScan",
+        "Description": "A service that scans and analyzes websites for security issues, providing detailed information about the site's resources and behavior.",
+        "HTU": " Visit urlscan.io to analyze the behavior of a URL. Submit a URL to get a detailed report on its content, requests, and potential security issues.",
+        "Link": "https://urlscan.io/",
+        "image": "./assets/images/tools/Category/OSINT/Tool12.png",
+        "keywords": ["UrlScan", "Osint"]
+      },
+      "Tool13": {
+        "Name": "The WayBack Machine ",
+        "Description": "A digital archive of the internet, allowing users to see archived versions of web pages across different points in time.",
+        "HTU": "Use the Wayback Machine on archive.org to view archived versions of websites. Enter a URL to see its history and snapshots over time.",
+        "Link": "https://archive.org/web/",
+        "image": "./assets/images/tools/Category/OSINT/Tool13.png",
+        "keywords": ["The Wayback Machine", "Osint"]
+      },
+      "Tool14": {
+        "Name": "Grabify",
+        "Description": "A tool for creating trackable URLs, which can reveal the IP address and other information about the person clicking on the link.",
+        "HTU": " Create a trackable link with Grabify to gather information about the IP addresses of those who click on it. Use the link to monitor click activity and location data.",
+        "Link": "https://grabify.link/",
+        "image": "./assets/images/tools/Category/OSINT/Tool14.png",
+        "keywords": ["Grabify", "Osint"]
+      },
+      "Tool15": {
+        "Name": "Verexif",
+        "Description": "A tool that extracts and displays EXIF metadata from images, providing information about the camera settings and conditions when the photo was taken.",
+        "HTU": "Visit Verexif.com to view and remove EXIF metadata from images. Upload an image to see details like camera model, geolocation, and date taken.",
+        "Link": "http://verexif.com/en/",
+        "image": "./assets/images/tools/Category/OSINT/Tool15.png",
+        "keywords": ["Verexif", "Osint"]
+      },
+
+      "Tool16": {
+        "Name": "Exif.Regex",
+        "Description": "A tool or library that uses regular expressions to extract and analyze EXIF metadata from image files.",
+        "HTU": "Use ExifTool with regex commands to extract or manipulate EXIF metadata from images. Utilize regular expressions to match specific metadata fields.",
+        "Link": "https://exif.regex.info/",
+        "image": "./assets/images/tools/Category/OSINT/Tool16.png",
+        "keywords": ["Exif.regex", "Osint"]
+      },
+      "Tool17": {
+        "Name": "Instaloader",
+        "Description": "A command-line tool for downloading Instagram photos, videos, and metadata from public and private profiles.",
+        "HTU": " Download Instagram photos, videos, and metadata with Instaloader. Use command-line instructions to specify what content to download from a public Instagram profile.",
+        "Link": "https://instaloader.github.io/",
+        "image": "./assets/images/tools/Category/OSINT/Tool17.png",
+        "keywords": ["Instaloader", "Osint"]
+      },
+      "Tool18": {
+        "Name": "TWINT",
+        "Description": " An advanced Twitter scraping tool written in Python that allows for the collection of tweets and user data without API limitations.",
+        "HTU": " Use TWINT to scrape Twitter data without API limitations. Run TWINT commands in Python to gather tweets, followers, and other information from Twitter profiles.",
+        "Link": "https://github.com/twintproject/twint",
+        "image": "./assets/images/tools/Category/OSINT/Tool18.png",
+        "keywords": ["TWINT", "Osint"]
+      },
+      "Tool19": {
+        "Name": "IMEI Number Lookup",
+        "Description": "A tool for checking the IMEI number of a mobile device to obtain information about its make, model, and status (e.g., if it is reported stolen).",
+        "HTU": " Check the IMEI number of a mobile device to get information about its make, model, and carrier. Use online IMEI lookup tools to enter the number and retrieve details.",
+        "Link": "https://www.imei.info/",
+        "image": "./assets/images/tools/Category/OSINT/Tool19.png",
+        "keywords": ["IMEI Number Lookup", " Osint"]
+      }
+    }
+  }
+}

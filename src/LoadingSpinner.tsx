@@ -1,5 +1,3 @@
-// LoadingSpinner.jsx
-import React from "react";
 import spinner from "./assets/icons/spinner.gif";
 
 const LoadingSpinner = () => (

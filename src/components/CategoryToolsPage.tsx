@@ -19,6 +19,8 @@ import {
   MalwareAnalysisTools,
   ReverseEngineeringTools,
   WebApplicationScanners,
+  Osint,
+  FIRDownload,
 } from "../components/ToolsData";
 import Navbar from "./Navbar";
 
@@ -41,14 +43,23 @@ const getRandomGradient = () => {
   return gradientClasses[Math.floor(Math.random() * gradientClasses.length)];
 };
 
+interface Tool {
+  Name: string;
+  Description: string;
+  HTU: string;
+  Link: string;
+  image: string;
+  keywords: string[];
+}
+
 const CategoryToolsPage = () => {
   const { categoryName } = useParams();
-  const [tools, setTools] = useState([]);
+  const [tools, setTools] = useState<Tool[]>([]);
 
   useEffect(() => {
     const fetchTools = async () => {
       try {
-        let categoryData = [];
+        let categoryData: Tool[] = [];
         switch (categoryName) {
           case "network-scanners":
             categoryData = NetworkScanners;
@@ -101,6 +112,12 @@ const CategoryToolsPage = () => {
           case "web-application-scanners":
             categoryData = WebApplicationScanners;
             break;
+          case "osint-tools":
+            categoryData = Osint;
+            break;
+          case "fir-download":
+            categoryData = FIRDownload;
+            break;
           default:
             throw new Error("Category not found");
         }
@@ -111,7 +128,9 @@ const CategoryToolsPage = () => {
     };
     fetchTools();
   }, [categoryName]);
-
+  if (!categoryName) {
+    return <div>Loading...</div>; // or return an error message
+  }
   return (
     <>
       <Helmet>

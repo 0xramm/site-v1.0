@@ -744,16 +744,7 @@
         "keywords": ["Snappy", "Sandboxing Tools"]
       }
     ],
-    "FIR Download": [
-      {
-        "Name": "Emailrep.io",
-        "Description": "A service that provides reputation and risk analysis of email addresses using data points like breaches, social profiles, and activity patterns.",
-        "HTU": "Use Emailrep.io to check the reputation of an email address. Simply enter the email to get information about its validity and associated risks.",
-        "Link": "https://emailrep.io/",
-        "image": "./assets/images/tools/Category/OSINT/Tool1.png",
-        "keywords": "Emailrep, Osint"
-      }
-    ],
+
     "Osint Tools": [
       {
         "Name": "Emailrep.io",
@@ -909,6 +900,16 @@
         "Link": "https://www.imei.info/",
         "image": "./assets/images/tools/Category/OSINT/Tool19.png",
         "keywords": "IMEI Number Lookup, Osint"
+      }
+    ],
+    "FIR Download": [
+      {
+        "Name": "Emailrep.io",
+        "Description": "A service that provides reputation and risk analysis of email addresses using data points like breaches, social profiles, and activity patterns.",
+        "HTU": "Use Emailrep.io to check the reputation of an email address. Simply enter the email to get information about its validity and associated risks.",
+        "Link": "https://emailrep.io/",
+        "image": "./assets/images/tools/Category/OSINT/Tool1.png",
+        "keywords": "Emailrep, Osint"
       }
     ]
   }
